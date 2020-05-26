@@ -47,6 +47,7 @@ while True:
     if port == 65534:
       port = 1
   except:
-    print("Error Last Attack")
+    print ("trying again..")
+)
 k")
 int("Error Last Attack")
